@@ -38,18 +38,7 @@ python -m snn_tt_research.main all
 MAC-и, латентности, а для блоков 2 и 3 — словарь `ClassificationReport` по каждой
 модели (accuracy, macro precision/recall/F1, weighted-варианты, balanced accuracy,
 Cohen's kappa, top-2 / top-5 accuracy, per-class precision/recall/F1 и матрица
-ошибок) плюс пути ко всем сохранённым `.png`-графикам.
-
-## Графики
-
-В директории `plots/<блок>/` автоматически сохраняются:
-
-- матрица ошибок для каждой модели (`confusion_<name>.png`),
-- столбчатая диаграмма precision/recall/F1 по классам (`per_class_<name>.png`),
-- сравнение моделей по accuracy/precision/recall/F1 (`models_comparison.png`),
-- кривые валидационной точности по эпохам (`training_curves.png`, блок 3),
-- accuracy vs число параметров (`accuracy_vs_params.png`),
-- латентность + ускорение относительно dense (`latency_speedup.png`).
+ошибок).
 
 ## Зависимости
 
